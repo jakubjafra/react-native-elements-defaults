@@ -2,3 +2,5 @@ node_modules
 ~*
 .idea
 .expo
+.DS_Store
+*.log

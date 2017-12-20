@@ -1,7 +1,19 @@
 {
   "name": "react-native-elements-styled-lib",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.1.0",
   "private": true,
-  "license": "UNLICENSED"
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "^23.0.4",
+    "react": "16.0.0",
+    "react-native": "0.50.3",
+    "react-native-elements": "^0.18.5",
+    "react-native-vector-icons": "^4.2.0"
+  }
 }
