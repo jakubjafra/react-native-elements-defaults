@@ -1,6 +1,6 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { Button } from 'react-native-elements-styled-lib';
+import { StyleSheet, View } from 'react-native';
+import { Text, Button } from 'react-native-elements-styled-lib';
 
 export default class App extends React.Component {
   render() {
