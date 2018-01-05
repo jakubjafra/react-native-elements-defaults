@@ -15,6 +15,7 @@ import {
     ButtonGroup,
     Tile,
     Icon,
+    Button,
     List,
     ListItem,
     Avatar
@@ -205,6 +206,35 @@ class App extends Component {
                         selectedIndex={selectedIndex}
                         buttons={buttons}
                     />
+                </View>
+                <View style={{ marginTop: 20 }}>
+                    <Button
+                        style={{ margin: 5 }}
+                        title='BUTTON' />
+
+                    <Button
+                        style={{ margin: 5 }}
+                        raised
+                        icon={{name: 'cached'}}
+                        title='BUTTON WITH ICON' />
+
+                    <Button
+                        style={{ margin: 5 }}
+                        large
+                        icon={{name: 'code'}}
+                        title='LARGE WITH RIGHT ICON' />
+
+                    <Button
+                        style={{ margin: 5 }}
+                        large
+                        icon={{name: 'envira', type: 'font-awesome'}}
+                        title='LARGE WITH RIGHT ICON' />
+
+                    <Button
+                        style={{ margin: 5 }}
+                        large
+                        icon={{name: 'squirrel', type: 'octicon', buttonStyle: styles.someButtonStyle }}
+                        title='OCTICON' />
                 </View>
                 <View style={styles.container}>
                     <Card title="CARD WITH DIVIDER">
