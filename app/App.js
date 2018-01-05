@@ -20,10 +20,11 @@ import {
     ListItem,
     Avatar
 } from 'react-native-elements-styled-lib';
+// } from 'react-native-elements';
 
 const users = [
     {
-        name: 'brynn',
+        name: 'anna',
         avatar: 'https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg',
     },
     {
