@@ -210,6 +210,7 @@ class App extends Component {
                 <View style={{ marginTop: 20 }}>
                     <Button
                         style={{ margin: 5 }}
+                        buttonStyle={{ backgroundColor: 'lightblue' }}
                         title='BUTTON' />
 
                     <Button
@@ -220,13 +221,11 @@ class App extends Component {
 
                     <Button
                         style={{ margin: 5 }}
-                        large
                         icon={{name: 'code'}}
                         title='LARGE WITH RIGHT ICON' />
 
                     <Button
                         style={{ margin: 5 }}
-                        large
                         icon={{name: 'envira', type: 'font-awesome'}}
                         title='LARGE WITH RIGHT ICON' />
 
