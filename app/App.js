@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Image, ListView, ScrollView, StyleSheet, View,} from 'react-native';
 
-import {Header, Avatar, Button, ButtonGroup, Card, List, ListItem, Text, Tile
+import {Header, Avatar, Button, ButtonGroup, Card, List, ListItem, Text, Tile, FormLabel, FormInput, FormValidationMessage
 } from 'react-native-elements-styled-lib';
 // } from 'react-native-elements';
 
@@ -130,6 +130,12 @@ class App extends Component {
                     rightComponent={{ icon: 'home', color: '#fff' }}
                 />
                 <ScrollView>
+                    <Text style={{
+                        fontFamily: 'Arial',
+                    }}>Test TEEXT</Text>
+                    <FormLabel>Name</FormLabel>
+                    <FormInput/>
+                    <FormValidationMessage>Error message</FormValidationMessage>
                     <List>
                         {list2.map((l, i) => (
                             <ListItem
