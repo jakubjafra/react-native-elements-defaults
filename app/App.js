@@ -1,24 +1,7 @@
-import Expo from 'expo';
-import React, { Component } from 'react';
-import {
-    View,
-    ScrollView,
-    StyleSheet,
-    Image,
-    TouchableHighlight,
-    ListView,
-} from 'react-native';
+import React, {Component} from 'react';
+import {Image, ListView, ScrollView, StyleSheet, View,} from 'react-native';
 
-import {
-    Text,
-    Card,
-    ButtonGroup,
-    Tile,
-    Icon,
-    Button,
-    List,
-    ListItem,
-    Avatar
+import {Header, Avatar, Button, ButtonGroup, Card, List, ListItem, Text, Tile
 } from 'react-native-elements-styled-lib';
 // } from 'react-native-elements';
 
@@ -140,257 +123,269 @@ class App extends Component {
         const { selectedIndex } = this.state;
 
         return (
-            <ScrollView>
-                <List>
-                    {list2.map((l, i) => (
+            <View>
+                <Header
+                    leftComponent={{ icon: 'menu', color: '#fff' }}
+                    centerComponent={{ text: 'MY TITLE', style: { color: '#fff' } }}
+                    rightComponent={{ icon: 'home', color: '#fff' }}
+                />
+                <ScrollView>
+                    <List>
+                        {list2.map((l, i) => (
+                            <ListItem
+                                roundAvatar
+                                avatar={{ uri: l.avatar_url }}
+                                key={i}
+                                onPress={log}
+                                title={l.name}
+                                subtitle={l.subtitle}
+                            />
+                        ))}
+                    </List>
+                    <List>
+                        {
+                            list2.map((l, i) => (
+                                <ListItem
+                                    key={i}
+                                    leftIcon={{ name: 'user-circle-o', type: 'font-awesome', style: { color: 'blue' } }}
+                                    title={l.name}
+                                    titleStyle={{ color: 'red' }}
+                                    subtitle={l.subtitle}
+                                    rightTitle='11:00am'
+                                    rightTitleStyle={{ color: 'green' }}
+                                />
+                            ))
+                        }
+                    </List>
+                    <List>
                         <ListItem
                             roundAvatar
-                            avatar={{ uri: l.avatar_url }}
-                            key={i}
-                            onPress={log}
-                            title={l.name}
-                            subtitle={l.subtitle}
+                            title="Limited supply! Its like digital gold!"
+                            subtitle={
+                                <View style={styles.subtitleView}>
+                                    <Text style={styles.ratingText}>5 months ago</Text>
+                                </View>
+                            }
                         />
-                    ))}
-                </List>
-                <List>
-                    {
-                        list2.map((l, i) => (
-                            <ListItem
-                                key={i}
-                                leftIcon={{ name: 'user-circle-o', type: 'font-awesome', style: {color: 'blue'} }}
-                                title={l.name}
-                                titleStyle={{color: 'red'}}
-                                subtitle={l.subtitle}
-                                rightTitle='11:00am'
-                                rightTitleStyle={{color: 'green'}}
-                            />
-                        ))
-                    }
-                </List>
-                <List>
-                    <ListItem
-                        roundAvatar
-                        title="Limited supply! Its like digital gold!"
-                        subtitle={
-                            <View style={styles.subtitleView}>
-                                <Text style={styles.ratingText}>5 months ago</Text>
-                            </View>
-                        }
-                    />
-                </List>
-                <List>
-                    <ListItem
-                        onPress={log}
-                        title={'Name w/o placeholder'}
-                        textInput={true}
-                        hideChevron
-                    />
-                    <ListItem
-                        onPress={log}
-                        title={'Name w/ placeholder'}
-                        textInput={true}
-                        textInputPlaceholder={'John Doe'}
-                        hideChevron
-                    />
-                </List>
-                <List>
-                    <ListView
-                        renderRow={this.renderRow}
-                        dataSource={this.state.dataSource}
-                    />
-                </List>
-                <View style={{ marginTop: 20 }}>
-                    <ButtonGroup
-                        textStyle={{ fontSize: 13 }}
-                        onPress={this.updateIndex}
-                        selectedIndex={selectedIndex}
-                        buttons={buttons}
-                    />
-                </View>
-                <View style={{ marginTop: 20 }}>
-                    <Button
-                        style={{ margin: 5 }}
-                        buttonStyle={{ backgroundColor: 'lightblue' }}
-                        title='BUTTON' />
+                    </List>
+                    <List>
+                        <ListItem
+                            onPress={log}
+                            title={'Name w/o placeholder'}
+                            textInput={true}
+                            hideChevron
+                        />
+                        <ListItem
+                            onPress={log}
+                            title={'Name w/ placeholder'}
+                            textInput={true}
+                            textInputPlaceholder={'John Doe'}
+                            hideChevron
+                        />
+                    </List>
+                    <List>
+                        <ListView
+                            renderRow={this.renderRow}
+                            dataSource={this.state.dataSource}
+                        />
+                    </List>
+                    <View style={{ marginTop: 20 }}>
+                        <ButtonGroup
+                            textStyle={{ fontSize: 13 }}
+                            onPress={this.updateIndex}
+                            selectedIndex={selectedIndex}
+                            buttons={buttons}
+                        />
+                    </View>
+                    <View style={{ marginTop: 20 }}>
+                        <Button
+                            style={{ margin: 5 }}
+                            buttonStyle={{ backgroundColor: 'lightblue' }}
+                            title='BUTTON'/>
 
-                    <Button
-                        style={{ margin: 5 }}
-                        raised
-                        icon={{name: 'cached'}}
-                        title='BUTTON WITH ICON' />
+                        <Button
+                            style={{ margin: 5 }}
+                            raised
+                            icon={{ name: 'cached' }}
+                            title='BUTTON WITH ICON'/>
 
-                    <Button
-                        style={{ margin: 5 }}
-                        icon={{name: 'code'}}
-                        title='LARGE WITH RIGHT ICON' />
+                        <Button
+                            style={{ margin: 5 }}
+                            icon={{ name: 'code' }}
+                            title='LARGE WITH RIGHT ICON'/>
 
-                    <Button
-                        style={{ margin: 5 }}
-                        icon={{name: 'envira', type: 'font-awesome'}}
-                        title='LARGE WITH RIGHT ICON' />
+                        <Button
+                            style={{ margin: 5 }}
+                            icon={{ name: 'envira', type: 'font-awesome' }}
+                            title='LARGE WITH RIGHT ICON'/>
 
-                    <Button
-                        style={{ margin: 5 }}
-                        large
-                        icon={{name: 'squirrel', type: 'octicon', buttonStyle: styles.someButtonStyle }}
-                        title='OCTICON' />
-                </View>
-                <View style={styles.container}>
-                    <Card title="CARD WITH DIVIDER">
-                        {users.map((u, i) => {
-                            return (
-                                <View key={i} style={styles.user}>
-                                    <Image
-                                        style={styles.image}
-                                        source={{ uri: u.avatar }}
-                                    />
-                                    <Text style={styles.name}>{u.name}</Text>
-                                </View>
-                            );
-                        })}
-                    </Card>
-                    <Card containerStyle={{ marginTop: 15 }} title="FONTS">
-                        <Text style={styles.fonts} h1>h1 Heading</Text>
-                        <Text style={styles.fonts} h2>h2 Heading</Text>
-                        <Text style={styles.fonts} h3>h3 Heading</Text>
-                        <Text style={styles.fonts} h4>h4 Heading</Text>
-                        <Text style={styles.fonts}>Normal Text</Text>
-                    </Card>
-                    <Card
-                        containerStyle={{ marginTop: 15, marginBottom: 15 }}
-                        title="TILES"
-                    >
-                        <View>
-                            <Tile
-                                imageSrc={{
-                                    uri: 'https://static1.squarespace.com/static/5477887ae4b07c97883111ab/5478c08fe4b0fa4e5a552532/57e101f3579fb32aef30d4af/1491426124625/Porthmeor+Sunset+21.jpg',
-                                }}
-                                title="When I admire the wonders of a sunset or the beauty of the moon, my soul expands in the worship of the creator."
-                                titleStyle={{ fontSize: 20 }}
-                                featured
-                                caption="Mahatma Gandhi"
-                                activeOpacity={1}
-                                width={310}
-                            />
-                        </View>
-                        <View style={{ paddingTop: 20 }}>
-                            <Tile
-                                imageSrc={{
-                                    uri: 'https://awildgeographer.files.wordpress.com/2015/02/john_muir_glacier.jpg',
-                                }}
-                                icon={{
-                                    name: 'heart',
-                                    type: 'font-awesome',
-                                    size: 60,
-                                    color: 'red',
-                                }}
-                                featured
-                                activeOpacity={0.8}
-                                onPress={() => {
-                                    'Tile pressed';
-                                }}
-                                width={310}
-                            />
-                        </View>
-                        <View style={{ paddingTop: 20 }}>
-                            <Tile
-                                imageSrc={{
-                                    uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Half_Dome_from_Glacier_Point%2C_Yosemite_NP_-_Diliff.jpg/320px-Half_Dome_from_Glacier_Point%2C_Yosemite_NP_-_Diliff.jpg',
-                                }}
-                                title="Half Dome, Yosemite"
-                                titleStyle={{ fontSize: 20 }}
-                                activeOpacity={1}
-                                width={310}
-                                contentContainerStyle={{ height: 70 }}
-                            >
-                                <View
-                                    style={{
-                                        flex: 1,
-                                        flexDirection: 'row',
-                                        justifyContent: 'space-between',
+                        <Button
+                            style={{ margin: 5 }}
+                            large
+                            icon={{ name: 'squirrel', type: 'octicon', buttonStyle: styles.someButtonStyle }}
+                            title='OCTICON'/>
+                    </View>
+                    <View style={styles.container}>
+                        <Card title="CARD WITH DIVIDER">
+                            {users.map((u, i) => {
+                                return (
+                                    <View key={i} style={styles.user}>
+                                        <Image
+                                            style={styles.image}
+                                            source={{ uri: u.avatar }}
+                                        />
+                                        <Text style={styles.name}>{u.name}</Text>
+                                    </View>
+                                );
+                            })}
+                        </Card>
+                        <Card containerStyle={{ marginTop: 15 }} title="FONTS">
+                            <Text style={styles.fonts} h1>h1 Heading</Text>
+                            <Text style={styles.fonts} h2>h2 Heading</Text>
+                            <Text style={styles.fonts} h3>h3 Heading</Text>
+                            <Text style={styles.fonts} h4>h4 Heading</Text>
+                            <Text style={styles.fonts}>Normal Text</Text>
+                        </Card>
+                        <Card
+                            containerStyle={{ marginTop: 15, marginBottom: 15 }}
+                            title="TILES"
+                        >
+                            <View>
+                                <Tile
+                                    imageSrc={{
+                                        uri: 'https://static1.squarespace.com/static/5477887ae4b07c97883111ab/5478c08fe4b0fa4e5a552532/57e101f3579fb32aef30d4af/1491426124625/Porthmeor+Sunset+21.jpg',
                                     }}
+                                    title="When I admire the wonders of a sunset or the beauty of the moon, my soul expands in the worship of the creator."
+                                    titleStyle={{ fontSize: 20 }}
+                                    featured
+                                    caption="Mahatma Gandhi"
+                                    activeOpacity={1}
+                                    width={310}
+                                />
+                            </View>
+                            <View style={{ paddingTop: 20 }}>
+                                <Tile
+                                    imageSrc={{
+                                        uri: 'https://awildgeographer.files.wordpress.com/2015/02/john_muir_glacier.jpg',
+                                    }}
+                                    icon={{
+                                        name: 'heart',
+                                        type: 'font-awesome',
+                                        size: 60,
+                                        color: 'red',
+                                    }}
+                                    featured
+                                    activeOpacity={0.8}
+                                    onPress={() => {
+                                        'Tile pressed';
+                                    }}
+                                    width={310}
+                                />
+                            </View>
+                            <View style={{ paddingTop: 20 }}>
+                                <Tile
+                                    imageSrc={{
+                                        uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Half_Dome_from_Glacier_Point%2C_Yosemite_NP_-_Diliff.jpg/320px-Half_Dome_from_Glacier_Point%2C_Yosemite_NP_-_Diliff.jpg',
+                                    }}
+                                    title="Half Dome, Yosemite"
+                                    titleStyle={{ fontSize: 20 }}
+                                    activeOpacity={1}
+                                    width={310}
+                                    contentContainerStyle={{ height: 70 }}
                                 >
-                                    <Text style={{ color: 'green' }}>Visit</Text>
-                                    <Text style={{ color: 'blue' }}>Find out More</Text>
+                                    <View
+                                        style={{
+                                            flex: 1,
+                                            flexDirection: 'row',
+                                            justifyContent: 'space-between',
+                                        }}
+                                    >
+                                        <Text style={{ color: 'green' }}>Visit</Text>
+                                        <Text style={{ color: 'blue' }}>Find out More</Text>
+                                    </View>
+                                </Tile>
+                            </View>
+                        </Card>
+                        <Card
+                            containerStyle={{
+                                marginTop: 15,
+                                marginBottom: 15,
+                                height: 230,
+                                paddingLeft: 10,
+                            }}
+                            title="AVATARS"
+                        >
+                            <View style={{ margin: 40, flex: 1 }}>
+                                <View style={{ flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }}>
+                                    <Avatar
+                                        small
+                                        rounded
+                                        source={{
+                                            uri: 'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
+                                        }}
+                                        onPress={() => console.log('Works!')}
+                                        containerStyle={{ margin: 10 }}
+                                        activeOpacity={0.7}
+                                    />
+                                    <Avatar
+                                        medium
+                                        icon={{ name: 'home', color: 'pink' }}
+                                        onPress={() => console.log('Works!')}
+                                        containerStyle={{ margin: 10, backgroundColor: 'violet' }}
+                                        activeOpacity={0.7}
+                                    />
+                                    <Avatar
+                                        large
+                                        rounded
+                                        title="BP"
+                                        onPress={() => console.log('Works!')}
+                                        containerStyle={{ margin: 10, backgroundColor: 'red' }}
+                                        activeOpacity={0.7}
+                                    />
+                                    <Avatar
+                                        large
+                                        rounded
+                                        source={{
+                                            uri: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
+                                        }}
+                                        onPress={() => console.log('Works!')}
+                                        containerStyle={{ margin: 10 }}
+                                        activeOpacity={0.7}
+                                    />
                                 </View>
-                            </Tile>
-                        </View>
-                    </Card>
-                    <Card
-                        containerStyle={{
-                            marginTop: 15,
-                            marginBottom: 15,
-                            height: 230,
-                            paddingLeft: 10,
-                        }}
-                        title="AVATARS"
-                    >
-                        <View style={{margin: 40, flex: 1}}>
-                            <View style={{ flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
-                                <Avatar
-                                    small
-                                    rounded
-                                    source={{
-                                        uri: 'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
-                                    }}
-                                    onPress={() => console.log('Works!')}
-                                    containerStyle={{margin: 10}}
-                                    activeOpacity={0.7}
-                                />
-                                <Avatar
-                                    medium
-                                    icon={{ name: 'home', color: 'pink' }}
-                                    onPress={() => console.log('Works!')}
-                                    containerStyle={{margin: 10, backgroundColor: 'violet'}}
-                                    activeOpacity={0.7}
-                                />
-                                <Avatar
-                                    large
-                                    rounded
-                                    title="BP"
-                                    onPress={() => console.log('Works!')}
-                                    containerStyle={{margin: 10, backgroundColor: 'red'}}
-                                    activeOpacity={0.7}
-                                />
-                                <Avatar
-                                    large
-                                    rounded
-                                    source={{
-                                        uri: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
-                                    }}
-                                    onPress={() => console.log('Works!')}
-                                    containerStyle={{margin: 10}}
-                                    activeOpacity={0.7}
-                                />
+                                <View style={{
+                                    flexDirection: 'row',
+                                    justifyContent: 'center',
+                                    alignItems: 'center',
+                                    marginTop: 80
+                                }}>
+                                    <Avatar
+                                        medium
+                                        rounded
+                                        title="MT"
+                                        showEditButton
+                                        onPress={() => console.log('Works!')}
+                                        containerStyle={{ margin: 10, backgroundColor: 'black' }}
+                                        activeOpacity={0.7}
+                                    />
+                                    <Avatar
+                                        large
+                                        rounded
+                                        showEditButton
+                                        onEditPress={() => console.log('Works!')}
+                                        source={{
+                                            uri: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
+                                        }}
+                                        onPress={() => console.log('Works!')}
+                                        containerStyle={{ margin: 10 }}
+                                        activeOpacity={0.7}
+                                    />
+                                </View>
                             </View>
-                            <View style={{ flexDirection: 'row', justifyContent: 'center', alignItems: 'center', marginTop: 80}}>
-                                <Avatar
-                                    medium
-                                    rounded
-                                    title="MT"
-                                    showEditButton
-                                    onPress={() => console.log('Works!')}
-                                    containerStyle={{margin: 10, backgroundColor: 'black'}}
-                                    activeOpacity={0.7}
-                                />
-                                <Avatar
-                                    large
-                                    rounded
-                                    showEditButton
-                                    onEditPress={() => console.log('Works!')}
-                                    source={{
-                                        uri: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
-                                    }}
-                                    onPress={() => console.log('Works!')}
-                                    containerStyle={{margin: 10}}
-                                    activeOpacity={0.7}
-                                />
-                            </View>
-                        </View>
-                    </Card>
-                </View>
-            </ScrollView>
+                        </Card>
+                    </View>
+                </ScrollView>
+            </View>
         );
     }
 }
