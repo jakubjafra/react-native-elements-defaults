@@ -3,7 +3,6 @@ import {Image, ListView, ScrollView, StyleSheet, View,} from 'react-native';
 
 import {Header, Avatar, Button, ButtonGroup, Card, List, ListItem, Text, Tile, FormLabel, FormInput, FormValidationMessage
 } from 'react-native-elements-styled-lib';
-// } from 'react-native-elements';
 
 const users = [
     {
@@ -84,6 +83,12 @@ const list2 = [
         subtitle: 'CTO',
     },
 ];
+
+const ButtonX = () => <Button
+    raised
+    buttonStyle={{ backgroundColor: 'blue' }}
+    icon={{ name: 'cached' }}
+    title='BUTTON WITH ICON'/>;
 
 class App extends Component {
     constructor() {
@@ -208,13 +213,7 @@ class App extends Component {
                             style={{ margin: 5 }}
                             buttonStyle={{ backgroundColor: 'lightblue' }}
                             title='BUTTON'/>
-
-                        <Button
-                            style={{ margin: 5 }}
-                            raised
-                            icon={{ name: 'cached' }}
-                            title='BUTTON WITH ICON'/>
-
+                        <ButtonX />
                         <Button
                             style={{ margin: 5 }}
                             icon={{ name: 'code' }}
