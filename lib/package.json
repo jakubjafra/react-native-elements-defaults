@@ -30,11 +30,12 @@
     "react-native-vector-icons": "^4.2.0"
   },
   "devDependencies": {
+    "babel-preset-react-native": "^4.0.0",
+    "invalidate-module": "^1.0.0",
+    "jest": "^22.0.4",
     "react": "16.0.0",
     "react-native": "0.50.3",
     "react-native-vector-icons": "^4.2.0",
-    "babel-preset-react-native": "^4.0.0",
-    "react-test-renderer": "16.0.0",
-    "jest": "^22.0.4"
+    "react-test-renderer": "16.0.0"
   }
 }
