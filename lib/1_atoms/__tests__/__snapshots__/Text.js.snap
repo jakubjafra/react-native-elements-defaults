@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`OldText renders correctly 1`] = `
+exports[`empty theme OldText renders correctly 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
@@ -25,7 +25,7 @@ exports[`OldText renders correctly 1`] = `
 </Text>
 `;
 
-exports[`Text renders correctly 1`] = `
+exports[`empty theme Text renders correctly 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
@@ -43,6 +43,61 @@ exports[`Text renders correctly 1`] = `
       undefined,
       undefined,
       undefined,
+    ]
+  }
+>
+  Text
+</Text>
+`;
+
+exports[`some theme OldText renders correctly 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {},
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+    ]
+  }
+>
+  Text
+</Text>
+`;
+
+exports[`some theme Text renders correctly 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {},
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      Array [
+        undefined,
+        Object {
+          "fontFamily": "Arial",
+        },
+      ],
     ]
   }
 >

@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "babel-preset-react-native": "^4.0.0",
+    "import-fresh": "^2.0.0",
     "invalidate-module": "^1.0.0",
     "jest": "^22.0.4",
     "react": "16.0.0",
