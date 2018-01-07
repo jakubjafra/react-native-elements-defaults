@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`empty theme OldText renders correctly 1`] = `
+exports[`with basic theme applied OldText renders correctly 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
@@ -25,57 +25,7 @@ exports[`empty theme OldText renders correctly 1`] = `
 </Text>
 `;
 
-exports[`empty theme Text renders correctly 1`] = `
-<Text
-  accessible={true}
-  allowFontScaling={true}
-  ellipsizeMode="tail"
-  style={
-    Array [
-      Object {},
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-    ]
-  }
->
-  Text
-</Text>
-`;
-
-exports[`some theme OldText renders correctly 1`] = `
-<Text
-  accessible={true}
-  allowFontScaling={true}
-  ellipsizeMode="tail"
-  style={
-    Array [
-      Object {},
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-    ]
-  }
->
-  Text
-</Text>
-`;
-
-exports[`some theme Text renders correctly 1`] = `
+exports[`with basic theme applied Text renders correctly 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
@@ -98,6 +48,56 @@ exports[`some theme Text renders correctly 1`] = `
           "fontFamily": "Arial",
         },
       ],
+    ]
+  }
+>
+  Text
+</Text>
+`;
+
+exports[`with no theme applied OldText renders correctly 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {},
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+    ]
+  }
+>
+  Text
+</Text>
+`;
+
+exports[`with no theme applied Text renders correctly 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {},
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
     ]
   }
 >
