@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "lodash.defaults": "^4.2.0",
+    "lodash.defaultsdeep": "^4.6.0",
     "react-native-elements": "^0.18.5"
   },
   "peerDependencies": {

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with basic theme applied it should override the default color 1`] = `
+Object {
+  "android": Object {
+    "regular": Object {
+      "fontFamily": "serif",
+    },
+  },
+  "ios": Object {},
+}
+`;
+
+exports[`with no theme applied should define some default colors 1`] = `
+Object {
+  "android": Object {
+    "black": Object {
+      "fontFamily": "sans-serif",
+      "fontWeight": "bold",
+    },
+    "bold": Object {
+      "fontFamily": "sans-serif",
+      "fontWeight": "bold",
+    },
+    "condensed": Object {
+      "fontFamily": "sans-serif-condensed",
+    },
+    "condensed_light": Object {
+      "fontFamily": "sans-serif-condensed",
+      "fontWeight": "light",
+    },
+    "light": Object {
+      "fontFamily": "sans-serif-light",
+    },
+    "medium": Object {
+      "fontFamily": "sans-serif-medium",
+    },
+    "regular": Object {
+      "fontFamily": "sans-serif",
+    },
+    "thin": Object {
+      "fontFamily": "sans-serif-thin",
+    },
+  },
+  "ios": Object {},
+}
+`;
