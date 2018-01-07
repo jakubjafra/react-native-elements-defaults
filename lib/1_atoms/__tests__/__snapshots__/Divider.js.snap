@@ -8,12 +8,9 @@ exports[`with basic theme applied Divider renders correctly 1`] = `
         "backgroundColor": "#e1e8ee",
         "height": 1,
       },
-      Array [
-        undefined,
-        Object {
-          "backgroundColor": "red",
-        },
-      ],
+      Object {
+        "backgroundColor": "red",
+      },
     ]
   }
 />

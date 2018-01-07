@@ -139,12 +139,9 @@ exports[`with basic theme applied Slider renders correctly 1`] = `
           "borderRadius": 2,
           "height": 4,
         },
-        Array [
-          undefined,
-          Object {
-            "backgroundColor": "red",
-          },
-        ],
+        Object {
+          "backgroundColor": "red",
+        },
       ]
     }
   />

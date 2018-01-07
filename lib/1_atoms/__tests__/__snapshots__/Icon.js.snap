@@ -13,12 +13,9 @@ exports[`with basic theme applied Icon renders correctly 1`] = `
         "backgroundColor": "transparent",
         "justifyContent": "center",
       },
-      Array [
-        undefined,
-        Object {
-          "backgroundColor": "red",
-        },
-      ],
+      Object {
+        "backgroundColor": "red",
+      },
     ]
   }
   underlayColor="white"

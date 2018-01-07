@@ -42,12 +42,9 @@ exports[`with basic theme applied Text renders correctly 1`] = `
       undefined,
       undefined,
       undefined,
-      Array [
-        undefined,
-        Object {
-          "fontFamily": "Arial",
-        },
-      ],
+      Object {
+        "fontFamily": "Arial",
+      },
     ]
   }
 >
