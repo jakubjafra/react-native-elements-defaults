@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with basic theme applied Divider renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#e1e8ee",
+        "height": 1,
+      },
+      Array [
+        Object {
+          "backgroundColor": "red",
+        },
+        undefined,
+      ],
+    ]
+  }
+/>
+`;
+
+exports[`with basic theme applied OldDivider renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#e1e8ee",
+        "height": 1,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`with no theme applied Divider renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#e1e8ee",
+        "height": 1,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`with no theme applied OldDivider renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#e1e8ee",
+        "height": 1,
+      },
+      undefined,
+    ]
+  }
+/>
+`;

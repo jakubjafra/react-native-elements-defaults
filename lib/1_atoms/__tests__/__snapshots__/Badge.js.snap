@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with basic theme applied Badge renders correctly 1`] = `
+<View
+  style={
+    Array [
+      undefined,
+    ]
+  }
+>
+  <View
+    onPress={undefined}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#43484d",
+          "borderRadius": 20,
+          "justifyContent": "center",
+          "padding": 12,
+          "paddingBottom": 3,
+          "paddingTop": 3,
+        },
+        Array [
+          undefined,
+          Object {
+            "fontFamily": "Arial",
+          },
+        ],
+      ]
+    }
+  >
+    Badge
+  </View>
+</View>
+`;
+
+exports[`with basic theme applied OldBadge renders correctly 1`] = `
+<View
+  style={
+    Array [
+      undefined,
+    ]
+  }
+>
+  <View
+    onPress={undefined}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#43484d",
+          "borderRadius": 20,
+          "justifyContent": "center",
+          "padding": 12,
+          "paddingBottom": 3,
+          "paddingTop": 3,
+        },
+        undefined,
+      ]
+    }
+  >
+    Badge
+  </View>
+</View>
+`;
+
+exports[`with no theme applied Badge renders correctly 1`] = `
+<View
+  style={
+    Array [
+      undefined,
+    ]
+  }
+>
+  <View
+    onPress={undefined}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#43484d",
+          "borderRadius": 20,
+          "justifyContent": "center",
+          "padding": 12,
+          "paddingBottom": 3,
+          "paddingTop": 3,
+        },
+        undefined,
+      ]
+    }
+  >
+    Badge
+  </View>
+</View>
+`;
+
+exports[`with no theme applied OldBadge renders correctly 1`] = `
+<View
+  style={
+    Array [
+      undefined,
+    ]
+  }
+>
+  <View
+    onPress={undefined}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#43484d",
+          "borderRadius": 20,
+          "justifyContent": "center",
+          "padding": 12,
+          "paddingBottom": 3,
+          "paddingTop": 3,
+        },
+        undefined,
+      ]
+    }
+  >
+    Badge
+  </View>
+</View>
+`;
