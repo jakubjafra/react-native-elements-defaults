@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Image, ListView, ScrollView, StyleSheet, View,} from 'react-native';
 
-import {Header, Avatar, Button, ButtonGroup, Card, List, ListItem, Text, Tile, FormLabel, FormInput, FormValidationMessage
+import {Badge, Header, Avatar, Button, ButtonGroup, Card, List, ListItem, Text, Tile, FormLabel, FormInput, FormValidationMessage
 } from 'react-native-elements-styled-lib';
 
 const users = [
@@ -135,6 +135,7 @@ class App extends Component {
                     rightComponent={{ icon: 'home', color: '#fff' }}
                 />
                 <ScrollView>
+                    <Badge><Text>TEST</Text></Badge>
                     <Text style={{
                         fontFamily: 'Arial',
                     }}>Test TEEXT</Text>

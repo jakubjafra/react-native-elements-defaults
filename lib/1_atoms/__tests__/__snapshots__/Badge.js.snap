@@ -21,12 +21,9 @@ exports[`with basic theme applied Badge renders correctly 1`] = `
           "paddingBottom": 3,
           "paddingTop": 3,
         },
-        Array [
-          undefined,
-          Object {
-            "fontFamily": "Arial",
-          },
-        ],
+        Object {
+          "fontFamily": "Arial",
+        },
       ]
     }
   >

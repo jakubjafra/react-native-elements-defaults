@@ -4,7 +4,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "node node_modules/jest/bin/jest.js"
+    "test": "node node_modules/jest/bin/jest.js",
+    "install:peers": "yarn add -P --no-lockfile $(node -e \"process.stdout.write(String(Object.entries(require('./package.json').peerDependencies).map(d => d.join('@')).join(' ')))\")"
   },
   "jest": {
     "verbose": true,
@@ -21,7 +22,7 @@
     }
   },
   "dependencies": {
-    "lodash": "4.17.4",
+    "lodash.defaults": "^4.2.0",
     "react-native-elements": "^0.18.5"
   },
   "peerDependencies": {
@@ -34,9 +35,6 @@
     "import-fresh": "^2.0.0",
     "invalidate-module": "^1.0.0",
     "jest": "^22.0.4",
-    "react": "16.0.0",
-    "react-native": "0.50.3",
-    "react-native-vector-icons": "^4.2.0",
     "react-test-renderer": "16.0.0"
   }
 }
