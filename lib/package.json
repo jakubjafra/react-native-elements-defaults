@@ -12,9 +12,7 @@
     "preset": "react-native",
     "coverageDirectory": "./coverage/",
     "collectCoverageFrom": [
-      "**/*.js",
-      "!node_modules/**/*.js",
-      "!coverage/**/*.js"
+      "src/**/*.js"
     ],
     "collectCoverage": true,
     "globals": {
