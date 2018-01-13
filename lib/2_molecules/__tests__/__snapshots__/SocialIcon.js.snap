@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialIcon with basic theme applied OldSocialIcon renders correctly 1`] = `
+<View
+  disabled={false}
+  onLongPress={[Function]}
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "shadowColor": "rgba(0,0,0, .4)",
+        "shadowOffset": Object {
+          "height": 1,
+          "width": 1,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 1,
+      },
+      Object {
+        "alignItems": "center",
+        "borderRadius": 30,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "margin": 7,
+      },
+      false,
+      Object {
+        "height": 52,
+        "width": 52,
+      },
+      false,
+      Object {
+        "backgroundColor": undefined,
+      },
+      undefined,
+      undefined,
+    ]
+  }
+  underlayColor={undefined}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 24,
+          },
+          Array [
+            undefined,
+          ],
+          Object {
+            "fontFamily": "FontAwesome",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`SocialIcon with basic theme applied SocialIcon renders correctly 1`] = `
+<View
+  disabled={false}
+  onLongPress={[Function]}
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "shadowColor": "rgba(0,0,0, .4)",
+        "shadowOffset": Object {
+          "height": 1,
+          "width": 1,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 1,
+      },
+      Object {
+        "alignItems": "center",
+        "borderRadius": 30,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "margin": 7,
+      },
+      false,
+      Object {
+        "height": 52,
+        "width": 52,
+      },
+      false,
+      Object {
+        "backgroundColor": undefined,
+      },
+      undefined,
+      Object {
+        "backgroundColor": "red",
+      },
+    ]
+  }
+  underlayColor={undefined}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 24,
+          },
+          Array [
+            undefined,
+          ],
+          Object {
+            "fontFamily": "FontAwesome",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`SocialIcon with no theme applied OldSocialIcon and SocialIcon returns the same thing if no theme is applied 1`] = `"[2mCompared values have no visual difference.[22m"`;
+
+exports[`SocialIcon with no theme applied OldSocialIcon renders correctly 1`] = `
+<View
+  disabled={false}
+  onLongPress={[Function]}
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "shadowColor": "rgba(0,0,0, .4)",
+        "shadowOffset": Object {
+          "height": 1,
+          "width": 1,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 1,
+      },
+      Object {
+        "alignItems": "center",
+        "borderRadius": 30,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "margin": 7,
+      },
+      false,
+      Object {
+        "height": 52,
+        "width": 52,
+      },
+      false,
+      Object {
+        "backgroundColor": undefined,
+      },
+      undefined,
+      undefined,
+    ]
+  }
+  underlayColor={undefined}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 24,
+          },
+          Array [
+            undefined,
+          ],
+          Object {
+            "fontFamily": "FontAwesome",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`SocialIcon with no theme applied SocialIcon renders correctly 1`] = `
+<View
+  disabled={false}
+  onLongPress={[Function]}
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "shadowColor": "rgba(0,0,0, .4)",
+        "shadowOffset": Object {
+          "height": 1,
+          "width": 1,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 1,
+      },
+      Object {
+        "alignItems": "center",
+        "borderRadius": 30,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "margin": 7,
+      },
+      false,
+      Object {
+        "height": 52,
+        "width": 52,
+      },
+      false,
+      Object {
+        "backgroundColor": undefined,
+      },
+      undefined,
+      undefined,
+    ]
+  }
+  underlayColor={undefined}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 24,
+          },
+          Array [
+            undefined,
+          ],
+          Object {
+            "fontFamily": "FontAwesome",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
