@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`with basic theme applied OldText renders correctly 1`] = `
+exports[`Text with basic theme applied OldText renders correctly 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
@@ -20,12 +20,10 @@ exports[`with basic theme applied OldText renders correctly 1`] = `
       undefined,
     ]
   }
->
-  Text
-</Text>
+/>
 `;
 
-exports[`with basic theme applied Text renders correctly 1`] = `
+exports[`Text with basic theme applied Text renders correctly 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
@@ -47,12 +45,12 @@ exports[`with basic theme applied Text renders correctly 1`] = `
       },
     ]
   }
->
-  Text
-</Text>
+/>
 `;
 
-exports[`with no theme applied OldText renders correctly 1`] = `
+exports[`Text with no theme applied OldText and Text returns the same thing if no theme is applied 1`] = `"[2mCompared values have no visual difference.[22m"`;
+
+exports[`Text with no theme applied OldText renders correctly 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
@@ -72,12 +70,10 @@ exports[`with no theme applied OldText renders correctly 1`] = `
       undefined,
     ]
   }
->
-  Text
-</Text>
+/>
 `;
 
-exports[`with no theme applied Text renders correctly 1`] = `
+exports[`Text with no theme applied Text renders correctly 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
@@ -97,7 +93,5 @@ exports[`with no theme applied Text renders correctly 1`] = `
       undefined,
     ]
   }
->
-  Text
-</Text>
+/>
 `;

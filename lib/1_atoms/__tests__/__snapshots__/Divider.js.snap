@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`with basic theme applied Divider renders correctly 1`] = `
+exports[`Divider with basic theme applied Divider renders correctly 1`] = `
 <View
   style={
     Array [
@@ -16,7 +16,7 @@ exports[`with basic theme applied Divider renders correctly 1`] = `
 />
 `;
 
-exports[`with basic theme applied OldDivider renders correctly 1`] = `
+exports[`Divider with basic theme applied OldDivider renders correctly 1`] = `
 <View
   style={
     Array [
@@ -30,7 +30,7 @@ exports[`with basic theme applied OldDivider renders correctly 1`] = `
 />
 `;
 
-exports[`with no theme applied Divider renders correctly 1`] = `
+exports[`Divider with no theme applied Divider renders correctly 1`] = `
 <View
   style={
     Array [
@@ -44,7 +44,9 @@ exports[`with no theme applied Divider renders correctly 1`] = `
 />
 `;
 
-exports[`with no theme applied OldDivider renders correctly 1`] = `
+exports[`Divider with no theme applied OldDivider and Divider returns the same thing if no theme is applied 1`] = `"[2mCompared values have no visual difference.[22m"`;
+
+exports[`Divider with no theme applied OldDivider renders correctly 1`] = `
 <View
   style={
     Array [

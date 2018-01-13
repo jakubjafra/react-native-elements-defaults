@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`with basic theme applied Badge renders correctly 1`] = `
+exports[`Badge with basic theme applied Badge renders correctly 1`] = `
 <View
   style={
     Array [
@@ -22,17 +22,30 @@ exports[`with basic theme applied Badge renders correctly 1`] = `
           "paddingTop": 3,
         },
         Object {
-          "fontFamily": "Arial",
+          "backgroundColor": "red",
         },
       ]
     }
   >
-    Badge
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 14,
+          },
+          undefined,
+        ]
+      }
+    />
   </View>
 </View>
 `;
 
-exports[`with basic theme applied OldBadge renders correctly 1`] = `
+exports[`Badge with basic theme applied OldBadge renders correctly 1`] = `
 <View
   style={
     Array [
@@ -57,12 +70,25 @@ exports[`with basic theme applied OldBadge renders correctly 1`] = `
       ]
     }
   >
-    Badge
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 14,
+          },
+          undefined,
+        ]
+      }
+    />
   </View>
 </View>
 `;
 
-exports[`with no theme applied Badge renders correctly 1`] = `
+exports[`Badge with no theme applied Badge renders correctly 1`] = `
 <View
   style={
     Array [
@@ -87,12 +113,27 @@ exports[`with no theme applied Badge renders correctly 1`] = `
       ]
     }
   >
-    Badge
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 14,
+          },
+          undefined,
+        ]
+      }
+    />
   </View>
 </View>
 `;
 
-exports[`with no theme applied OldBadge renders correctly 1`] = `
+exports[`Badge with no theme applied OldBadge and Badge returns the same thing if no theme is applied 1`] = `"[2mCompared values have no visual difference.[22m"`;
+
+exports[`Badge with no theme applied OldBadge renders correctly 1`] = `
 <View
   style={
     Array [
@@ -117,7 +158,20 @@ exports[`with no theme applied OldBadge renders correctly 1`] = `
       ]
     }
   >
-    Badge
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 14,
+          },
+          undefined,
+        ]
+      }
+    />
   </View>
 </View>
 `;

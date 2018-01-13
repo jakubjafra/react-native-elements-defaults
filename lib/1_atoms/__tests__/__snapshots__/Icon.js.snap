@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`with basic theme applied Icon renders correctly 1`] = `
+exports[`Icon with basic theme applied Icon renders correctly 1`] = `
 <View
   onPress={undefined}
   style={
@@ -44,12 +44,12 @@ exports[`with basic theme applied Icon renders correctly 1`] = `
       ]
     }
   >
-    
+    
   </Text>
 </View>
 `;
 
-exports[`with basic theme applied OldIcon renders correctly 1`] = `
+exports[`Icon with basic theme applied OldIcon renders correctly 1`] = `
 <View
   onPress={undefined}
   style={
@@ -91,12 +91,12 @@ exports[`with basic theme applied OldIcon renders correctly 1`] = `
       ]
     }
   >
-    
+    
   </Text>
 </View>
 `;
 
-exports[`with no theme applied Icon renders correctly 1`] = `
+exports[`Icon with no theme applied Icon renders correctly 1`] = `
 <View
   onPress={undefined}
   style={
@@ -138,12 +138,14 @@ exports[`with no theme applied Icon renders correctly 1`] = `
       ]
     }
   >
-    
+    
   </Text>
 </View>
 `;
 
-exports[`with no theme applied OldIcon renders correctly 1`] = `
+exports[`Icon with no theme applied OldIcon and Icon returns the same thing if no theme is applied 1`] = `"[2mCompared values have no visual difference.[22m"`;
+
+exports[`Icon with no theme applied OldIcon renders correctly 1`] = `
 <View
   onPress={undefined}
   style={
@@ -185,7 +187,7 @@ exports[`with no theme applied OldIcon renders correctly 1`] = `
       ]
     }
   >
-    
+    
   </Text>
 </View>
 `;
