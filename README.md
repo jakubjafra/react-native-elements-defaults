@@ -1,7 +1,7 @@
-react-native-elements-styled
-============================
+react-native-elements-defaults
+==============================
 
-Small theming library that provides easy to use way to style react-native-elements components - without performance penalty for doing so.
+Small theming library that provides easy to set defaults for react-native-elements lib - without performance penalty for doing so.
 
 Usage
 -----
