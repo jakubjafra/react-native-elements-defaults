@@ -4606,7 +4606,7 @@ react-native-branch@2.0.0-beta.3:
   version "2.0.0-beta.3"
   resolved "https://registry.yarnpkg.com/react-native-branch/-/react-native-branch-2.0.0-beta.3.tgz#2167af86bbc9f964bd45bd5f37684e5b54965e32"
 
-"react-native-elements-styled-lib@file:../lib":
+"react-native-elements-defaults@file:../../lib":
   version "0.1.0"
   dependencies:
     lodash.defaults "^4.2.0"

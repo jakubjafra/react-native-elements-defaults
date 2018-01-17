@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Image, ListView, ScrollView, StyleSheet, View,} from 'react-native';
 
 import {Badge, Header, Avatar, Button, ButtonGroup, Card, List, ListItem, Text, Tile, FormLabel, FormInput, FormValidationMessage
-} from 'react-native-elements-styled-lib';
+} from 'react-native-elements-defaults';
 
 const users = [
     {
