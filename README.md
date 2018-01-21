@@ -59,7 +59,7 @@ Text.default = NewText;
 
 // require cache keeps the reference to Text object - that is now overriden,
 // so all components that were using Text are now using wrapped one:
-let elements = require('react-native-elements');
+const elements = require('react-native-elements');
 ```
 
 #### Low level API

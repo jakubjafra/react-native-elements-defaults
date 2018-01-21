@@ -4607,15 +4607,15 @@ react-native-branch@2.0.0-beta.3:
   resolved "https://registry.yarnpkg.com/react-native-branch/-/react-native-branch-2.0.0-beta.3.tgz#2167af86bbc9f964bd45bd5f37684e5b54965e32"
 
 "react-native-elements-defaults@file:../../lib":
-  version "0.1.0"
+  version "0.19.0"
   dependencies:
     lodash.defaults "^4.2.0"
     lodash.defaultsdeep "^4.6.0"
-    react-native-elements "^0.18.5"
+    react-native-elements "0.19.0"
 
-react-native-elements@^0.18.5:
-  version "0.18.5"
-  resolved "https://registry.yarnpkg.com/react-native-elements/-/react-native-elements-0.18.5.tgz#9d9a584395fea63f8cad7904fb21c1eac7cc63cf"
+react-native-elements@0.19.0:
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/react-native-elements/-/react-native-elements-0.19.0.tgz#737c5198bf7487f9986e2023826cd0bd7a500366"
   dependencies:
     lodash.isempty "^4.4.0"
     lodash.times "^4.3.2"
