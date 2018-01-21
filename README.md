@@ -19,7 +19,14 @@ You can style `react-native-elements` components for your app - but you can't st
 
 # How it works?
 
-...
+It basicly uses require cache to override `default export`ed components with ones that accepts external styling from `react-native-elements`.
+
+**Note:** This is working library, meant to solve problems - **now**. There are some POC already proposed about styling in `react-native-elements` repository, for example:
+* https://github.com/react-native-training/react-native-elements/pull/760 (really good PR - it uses the same approach as this, check it out!)
+* https://github.com/react-native-training/react-native-elements/issues/216
+
+However, lack of velocity on those changes and statements like *"theming should be limited to just colors and fonts"* leads to impression that theming is not something around the corner.
+When - or if - working version of theming will be introduced to `react-native-elements` is debatable - so for now you can style it on your own. Later - hopefully - this lib will not be needed anymore.
 
 #### Base idea
 
@@ -54,13 +61,14 @@ Text.default = NewText;
 let elements = require('react-native-elements');
 ```
 
+#### Low level API
+
+...
+
 #### Flexibility & priority
 
 ...
 
-#### Low level API
-
-...
 
 #### High level API
 
