@@ -1,6 +1,6 @@
 # react-native-elements-defaults
 
-Low level api overview.
+Low level api overview. You probably shouldn't use this directly.
 
 ## Basics
 

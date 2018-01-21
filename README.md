@@ -21,7 +21,7 @@ You can style `react-native-elements` components for your app - but you can't st
 
 It basicly uses require cache to override `default export`ed components with ones that accepts external styling from `react-native-elements`.
 
-**Note:** This is working library, meant to solve problems - **now**. There are some POC already proposed about styling in `react-native-elements` repository, for example:
+**Note:** This is working library, meant to solve problems **now**. There are some POC already proposed about styling in `react-native-elements` repository, for example:
 
 * https://github.com/react-native-training/react-native-elements/pull/760 (really good PR - it uses the same approach as this, check it out!)
 * https://github.com/react-native-training/react-native-elements/issues/216
