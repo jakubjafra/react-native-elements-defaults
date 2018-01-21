@@ -30,8 +30,8 @@ const defaultStyles = StyleSheet.create({
     }
 });
 
-// imports only the components' module
-const Text = require('react-native-elements/src/text/NewText');
+// import only the component module
+const Text = require('react-native-elements/src/text/Text');
 
 // simply wrap it with overwrite function
 const TextDefault = Text.default;
