@@ -41,6 +41,7 @@ exports[`Tile with basic theme applied OldTile renders correctly 1`] = `
     }
   >
     <Image
+      resizeMode="cover"
       source={undefined}
       style={
         Array [
@@ -55,9 +56,7 @@ exports[`Tile with basic theme applied OldTile renders correctly 1`] = `
             "height": undefined,
             "width": undefined,
           },
-          Object {
-            "resizeMode": "cover",
-          },
+          undefined,
         ]
       }
     />
@@ -162,6 +161,7 @@ exports[`Tile with basic theme applied Tile renders correctly 1`] = `
     }
   >
     <Image
+      resizeMode="cover"
       source={undefined}
       style={
         Array [
@@ -176,9 +176,7 @@ exports[`Tile with basic theme applied Tile renders correctly 1`] = `
             "height": undefined,
             "width": undefined,
           },
-          Object {
-            "resizeMode": "cover",
-          },
+          undefined,
         ]
       }
     />
@@ -284,6 +282,7 @@ exports[`Tile with no theme applied OldTile renders correctly 1`] = `
     }
   >
     <Image
+      resizeMode="cover"
       source={undefined}
       style={
         Array [
@@ -298,9 +297,7 @@ exports[`Tile with no theme applied OldTile renders correctly 1`] = `
             "height": undefined,
             "width": undefined,
           },
-          Object {
-            "resizeMode": "cover",
-          },
+          undefined,
         ]
       }
     />
@@ -404,6 +401,7 @@ exports[`Tile with no theme applied Tile renders correctly 1`] = `
     }
   >
     <Image
+      resizeMode="cover"
       source={undefined}
       style={
         Array [
@@ -418,9 +416,7 @@ exports[`Tile with no theme applied Tile renders correctly 1`] = `
             "height": undefined,
             "width": undefined,
           },
-          Object {
-            "resizeMode": "cover",
-          },
+          undefined,
         ]
       }
     />

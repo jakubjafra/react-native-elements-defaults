@@ -36,7 +36,6 @@ exports[`FeaturedTile with basic theme applied FeaturedTile renders correctly 1`
           "backgroundColor": "#ffffff",
           "height": 600,
           "justifyContent": "center",
-          "resizeMode": "cover",
           "width": 750,
         },
         undefined,
@@ -44,6 +43,7 @@ exports[`FeaturedTile with basic theme applied FeaturedTile renders correctly 1`
     }
   >
     <Image
+      resizeMode="cover"
       source={undefined}
       style={
         Array [
@@ -195,7 +195,6 @@ exports[`FeaturedTile with basic theme applied OldFeaturedTile renders correctly
           "backgroundColor": "#ffffff",
           "height": 600,
           "justifyContent": "center",
-          "resizeMode": "cover",
           "width": 750,
         },
         undefined,
@@ -203,6 +202,7 @@ exports[`FeaturedTile with basic theme applied OldFeaturedTile renders correctly
     }
   >
     <Image
+      resizeMode="cover"
       source={undefined}
       style={
         Array [
@@ -354,7 +354,6 @@ exports[`FeaturedTile with no theme applied FeaturedTile renders correctly 1`] =
           "backgroundColor": "#ffffff",
           "height": 600,
           "justifyContent": "center",
-          "resizeMode": "cover",
           "width": 750,
         },
         undefined,
@@ -362,6 +361,7 @@ exports[`FeaturedTile with no theme applied FeaturedTile renders correctly 1`] =
     }
   >
     <Image
+      resizeMode="cover"
       source={undefined}
       style={
         Array [
@@ -515,7 +515,6 @@ exports[`FeaturedTile with no theme applied OldFeaturedTile renders correctly 1`
           "backgroundColor": "#ffffff",
           "height": 600,
           "justifyContent": "center",
-          "resizeMode": "cover",
           "width": 750,
         },
         undefined,
@@ -523,6 +522,7 @@ exports[`FeaturedTile with no theme applied OldFeaturedTile renders correctly 1`
     }
   >
     <Image
+      resizeMode="cover"
       source={undefined}
       style={
         Array [

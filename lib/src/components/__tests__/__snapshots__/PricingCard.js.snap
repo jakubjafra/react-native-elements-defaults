@@ -320,6 +320,7 @@ exports[`PricingCard with basic theme applied OldPricingCard renders correctly 1
                   undefined,
                   undefined,
                   undefined,
+                  undefined,
                 ],
               ]
             }
@@ -651,6 +652,7 @@ exports[`PricingCard with basic theme applied PricingCard renders correctly 1`] 
                   Object {
                     "fontSize": 17.5,
                   },
+                  undefined,
                   undefined,
                   undefined,
                   undefined,
@@ -990,6 +992,7 @@ exports[`PricingCard with no theme applied OldPricingCard renders correctly 1`] 
                   undefined,
                   undefined,
                   undefined,
+                  undefined,
                 ],
               ]
             }
@@ -1319,6 +1322,7 @@ exports[`PricingCard with no theme applied PricingCard renders correctly 1`] = `
                   Object {
                     "fontSize": 17.5,
                   },
+                  undefined,
                   undefined,
                   undefined,
                   undefined,

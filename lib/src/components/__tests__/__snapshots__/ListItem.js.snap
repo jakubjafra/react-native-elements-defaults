@@ -28,6 +28,7 @@ exports[`ListItem with basic theme applied ListItem renders correctly 1`] = `
     style={
       Array [
         Object {
+          "alignItems": "center",
           "flexDirection": "row",
           "marginLeft": 10,
         },
@@ -155,6 +156,7 @@ exports[`ListItem with basic theme applied OldListItem renders correctly 1`] = `
     style={
       Array [
         Object {
+          "alignItems": "center",
           "flexDirection": "row",
           "marginLeft": 10,
         },
@@ -282,6 +284,7 @@ exports[`ListItem with no theme applied ListItem renders correctly 1`] = `
     style={
       Array [
         Object {
+          "alignItems": "center",
           "flexDirection": "row",
           "marginLeft": 10,
         },
@@ -411,6 +414,7 @@ exports[`ListItem with no theme applied OldListItem renders correctly 1`] = `
     style={
       Array [
         Object {
+          "alignItems": "center",
           "flexDirection": "row",
           "marginLeft": 10,
         },

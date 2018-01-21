@@ -102,6 +102,7 @@ exports[`Button with basic theme applied Button renders correctly 1`] = `
               undefined,
               undefined,
               undefined,
+              undefined,
             ],
           ]
         }
@@ -207,6 +208,7 @@ exports[`Button with basic theme applied OldButton renders correctly 1`] = `
               Object {
                 "fontSize": 17.5,
               },
+              undefined,
               undefined,
               undefined,
               undefined,
@@ -320,6 +322,7 @@ exports[`Button with no theme applied Button renders correctly 1`] = `
               undefined,
               undefined,
               undefined,
+              undefined,
             ],
           ]
         }
@@ -427,6 +430,7 @@ exports[`Button with no theme applied OldButton renders correctly 1`] = `
               Object {
                 "fontSize": 17.5,
               },
+              undefined,
               undefined,
               undefined,
               undefined,
