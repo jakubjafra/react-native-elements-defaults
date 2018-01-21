@@ -30,27 +30,27 @@ const defaultStyles = StyleSheet.create({
     }
 });
 
-# imports only the components' module
+// imports only the components' module
 const Text = require('react-native-elements/src/text/NewText');
 
-# simply wrap it with overwrite function
+// simply wrap it with overwrite function
 const TextDefault = Text.default;
 let NewText = function (props) {
     let newProps = {
         style: props.style ? [...props.style, defaultStyles.text] : defaultStyles.text,
     };
 
-    # we're still calling the base component:
+    // we're still calling the base component:
     return TextDefault.call(undefined, _.defaultsDeep(newProps, props));
 };
 NewText.propTypes = TextDefault.propTypes;
 NewText.defaultProps = TextDefault.defaultProps;
 
-# override old component (where the magic happens):
+// override old component (where the magic happens):
 Text.default = NewText;
 
-# require cache keeps the reference to Text object - that is now overriden,
-# so all components that were using Text are now using wrapped one:
+// require cache keeps the reference to Text object - that is now overriden,
+// so all components that were using Text are now using wrapped one:
 let elements = require('react-native-elements');
 ```
 
