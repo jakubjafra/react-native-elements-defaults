@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormInput with basic theme applied FormInput renders correctly 1`] = `
+<View
+  collapsable={undefined}
+  style={
+    Object {
+      "backgroundColor": "red",
+      "borderBottomColor": "#bdc6cf",
+      "borderBottomWidth": 1,
+      "marginLeft": 20,
+      "marginRight": 20,
+      "transform": Array [
+        Object {
+          "translateX": 0,
+        },
+      ],
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#86939e",
+          "minHeight": 36,
+          "width": 750,
+        },
+        Object {
+          "fontSize": 17.5,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`FormInput with basic theme applied OldFormInput renders correctly 1`] = `
+<View
+  collapsable={undefined}
+  style={
+    Object {
+      "borderBottomColor": "#bdc6cf",
+      "borderBottomWidth": 1,
+      "marginLeft": 20,
+      "marginRight": 20,
+      "transform": Array [
+        Object {
+          "translateX": 0,
+        },
+      ],
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#86939e",
+          "minHeight": 36,
+          "width": 750,
+        },
+        Object {
+          "fontSize": 17.5,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`FormInput with no theme applied FormInput renders correctly 1`] = `
+<View
+  collapsable={undefined}
+  style={
+    Object {
+      "borderBottomColor": "#bdc6cf",
+      "borderBottomWidth": 1,
+      "marginLeft": 20,
+      "marginRight": 20,
+      "transform": Array [
+        Object {
+          "translateX": 0,
+        },
+      ],
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#86939e",
+          "minHeight": 36,
+          "width": 750,
+        },
+        Object {
+          "fontSize": 17.5,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`FormInput with no theme applied OldFormInput and FormInput returns the same thing if no theme is applied 1`] = `"[2mCompared values have no visual difference.[22m"`;
+
+exports[`FormInput with no theme applied OldFormInput renders correctly 1`] = `
+<View
+  collapsable={undefined}
+  style={
+    Object {
+      "borderBottomColor": "#bdc6cf",
+      "borderBottomWidth": 1,
+      "marginLeft": 20,
+      "marginRight": 20,
+      "transform": Array [
+        Object {
+          "translateX": 0,
+        },
+      ],
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#86939e",
+          "minHeight": 36,
+          "width": 750,
+        },
+        Object {
+          "fontSize": 17.5,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;

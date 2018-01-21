@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormValidationMessage with basic theme applied FormValidationMessage renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      Object {
+        "backgroundColor": "red",
+      },
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {},
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        Array [
+          Object {
+            "color": "#ff190c",
+            "fontSize": 15,
+            "marginBottom": 1,
+            "marginLeft": 20,
+            "marginRight": 20,
+            "marginTop": 5,
+          },
+          undefined,
+          undefined,
+        ],
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`FormValidationMessage with basic theme applied OldFormValidationMessage renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      undefined,
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {},
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        Array [
+          Object {
+            "color": "#ff190c",
+            "fontSize": 15,
+            "marginBottom": 1,
+            "marginLeft": 20,
+            "marginRight": 20,
+            "marginTop": 5,
+          },
+          undefined,
+          undefined,
+        ],
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`FormValidationMessage with no theme applied FormValidationMessage renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      undefined,
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {},
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        Array [
+          Object {
+            "color": "#ff190c",
+            "fontSize": 15,
+            "marginBottom": 1,
+            "marginLeft": 20,
+            "marginRight": 20,
+            "marginTop": 5,
+          },
+          undefined,
+          undefined,
+        ],
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`FormValidationMessage with no theme applied OldFormValidationMessage and FormValidationMessage returns the same thing if no theme is applied 1`] = `"[2mCompared values have no visual difference.[22m"`;
+
+exports[`FormValidationMessage with no theme applied OldFormValidationMessage renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      undefined,
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {},
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        Array [
+          Object {
+            "color": "#ff190c",
+            "fontSize": 15,
+            "marginBottom": 1,
+            "marginLeft": 20,
+            "marginRight": 20,
+            "marginTop": 5,
+          },
+          undefined,
+          undefined,
+        ],
+      ]
+    }
+  />
+</View>
+`;

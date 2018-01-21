@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`overwrites should contain all components 1`] = `
+Array [
+  "Avatar",
+  "Badge",
+  "Button",
+  "ButtonGroup",
+  "Card",
+  "CheckBox",
+  "$colors",
+  "Divider",
+  "FeaturedTile",
+  "$fonts",
+  "FormInput",
+  "FormLabel",
+  "FormValidationMessage",
+  "Header",
+  "Icon",
+  "List",
+  "ListItem",
+  "PricingCard",
+  "Rating",
+  "Search",
+  "Slider",
+  "SocialIcon",
+  "Text",
+  "Tile",
+]
+`;
