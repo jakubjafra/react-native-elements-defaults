@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`$colors $colors are defined 1`] = `
+Object {
+  "disabled": "#dadee0",
+  "dkGreyBg": "#232323",
+  "error": "#ff190c",
+  "grey0": "#393e42",
+  "grey1": "#43484d",
+  "grey2": "#5e6977",
+  "grey3": "#86939e",
+  "grey4": "#bdc6cf",
+  "grey5": "#e1e8ee",
+  "greyOutline": "#bbb",
+  "primary": "#FFFFFF",
+  "primary1": "#4d86f7",
+  "primary2": "#6296f9",
+  "searchBg": "#303337",
+  "secondary": "#8F0CE8",
+  "secondary2": "#00B233",
+  "secondary3": "#00FF48",
+  "white": "#ffffff",
+}
+`;
+
+exports[`$colors config/$colors are defined 1`] = `
+Object {
+  "disabled": "#dadee0",
+  "dkGreyBg": "#232323",
+  "error": "#ff190c",
+  "grey0": "#393e42",
+  "grey1": "#43484d",
+  "grey2": "#5e6977",
+  "grey3": "#86939e",
+  "grey4": "#bdc6cf",
+  "grey5": "#e1e8ee",
+  "greyOutline": "#bbb",
+  "primary": "#9E9E9E",
+  "primary1": "#4d86f7",
+  "primary2": "#6296f9",
+  "searchBg": "#303337",
+  "secondary": "#8F0CE8",
+  "secondary2": "#00B233",
+  "secondary3": "#00FF48",
+  "white": "#ffffff",
+}
+`;
