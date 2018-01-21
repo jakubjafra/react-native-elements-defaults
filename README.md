@@ -34,7 +34,7 @@ When - or if - working version of theming will be introduced to `react-native-el
 ```javascript
 const defaultStyles = StyleSheet.create({
     text: {
-        fontFamily: 'Zapfino'
+        fontFamily: 'Times New Roman'
     }
 });
 
@@ -62,15 +62,10 @@ Text.default = NewText;
 const elements = require('react-native-elements');
 ```
 
-#### Low level API
-
-...
-
-#### Flexibility & priority
-
-...
-
-
 #### High level API
 
 See _Usage_.
+
+#### Internal low level API
+
+See [LOW_LEVEL_API.md]
