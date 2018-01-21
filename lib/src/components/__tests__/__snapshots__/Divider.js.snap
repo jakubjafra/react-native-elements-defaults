@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Divider with basic theme applied Divider renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#e1e8ee",
+        "height": 1,
+      },
+      Object {
+        "backgroundColor": "red",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Divider with basic theme applied OldDivider renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#e1e8ee",
+        "height": 1,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Divider with no theme applied Divider renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#e1e8ee",
+        "height": 1,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Divider with no theme applied OldDivider and Divider returns the same thing if no theme is applied 1`] = `"[2mCompared values have no visual difference.[22m"`;
+
+exports[`Divider with no theme applied OldDivider renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#e1e8ee",
+        "height": 1,
+      },
+      undefined,
+    ]
+  }
+/>
+`;

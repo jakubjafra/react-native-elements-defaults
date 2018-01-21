@@ -1,0 +1,407 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckBox with basic theme applied CheckBox renders correctly 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  collapsable={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "red",
+      "borderColor": "#ededed",
+      "borderRadius": 3,
+      "borderWidth": 1,
+      "margin": 5,
+      "marginLeft": 10,
+      "marginRight": 10,
+      "opacity": 1,
+      "padding": 10,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        },
+        false,
+        false,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      onLongPress={undefined}
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "color": "#bfbfbf",
+            "fontSize": 24,
+          },
+          undefined,
+          Object {
+            "fontFamily": "FontAwesome",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {},
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          Array [
+            Object {
+              "color": "#43484d",
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`CheckBox with basic theme applied OldCheckBox renders correctly 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  collapsable={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "borderColor": "#ededed",
+      "borderRadius": 3,
+      "borderWidth": 1,
+      "margin": 5,
+      "marginLeft": 10,
+      "marginRight": 10,
+      "opacity": 1,
+      "padding": 10,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        },
+        false,
+        false,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      onLongPress={undefined}
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "color": "#bfbfbf",
+            "fontSize": 24,
+          },
+          undefined,
+          Object {
+            "fontFamily": "FontAwesome",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {},
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          Array [
+            Object {
+              "color": "#43484d",
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`CheckBox with no theme applied CheckBox renders correctly 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  collapsable={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "borderColor": "#ededed",
+      "borderRadius": 3,
+      "borderWidth": 1,
+      "margin": 5,
+      "marginLeft": 10,
+      "marginRight": 10,
+      "opacity": 1,
+      "padding": 10,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        },
+        false,
+        false,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      onLongPress={undefined}
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "color": "#bfbfbf",
+            "fontSize": 24,
+          },
+          undefined,
+          Object {
+            "fontFamily": "FontAwesome",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {},
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          Array [
+            Object {
+              "color": "#43484d",
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`CheckBox with no theme applied OldCheckBox and CheckBox returns the same thing if no theme is applied 1`] = `"[2mCompared values have no visual difference.[22m"`;
+
+exports[`CheckBox with no theme applied OldCheckBox renders correctly 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  collapsable={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "borderColor": "#ededed",
+      "borderRadius": 3,
+      "borderWidth": 1,
+      "margin": 5,
+      "marginLeft": 10,
+      "marginRight": 10,
+      "opacity": 1,
+      "padding": 10,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        },
+        false,
+        false,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      onLongPress={undefined}
+      onPress={undefined}
+      style={
+        Array [
+          Object {
+            "color": "#bfbfbf",
+            "fontSize": 24,
+          },
+          undefined,
+          Object {
+            "fontFamily": "FontAwesome",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {},
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          Array [
+            Object {
+              "color": "#43484d",
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+    />
+  </View>
+</View>
+`;

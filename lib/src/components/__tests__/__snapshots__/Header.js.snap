@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header with basic theme applied Header renders correctly 1`] = `
+<View
+  containerStyle={
+    Object {
+      "backgroundColor": "red",
+    }
+  }
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#476DC5",
+        "borderBottomColor": "#f2f2f2",
+        "borderBottomWidth": 1,
+        "height": 70,
+        "padding": 15,
+      },
+      undefined,
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-end",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`Header with basic theme applied OldHeader renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#476DC5",
+        "borderBottomColor": "#f2f2f2",
+        "borderBottomWidth": 1,
+        "height": 70,
+        "padding": 15,
+      },
+      undefined,
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-end",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`Header with no theme applied Header renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#476DC5",
+        "borderBottomColor": "#f2f2f2",
+        "borderBottomWidth": 1,
+        "height": 70,
+        "padding": 15,
+      },
+      undefined,
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-end",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`Header with no theme applied OldHeader and Header returns the same thing if no theme is applied 1`] = `"[2mCompared values have no visual difference.[22m"`;
+
+exports[`Header with no theme applied OldHeader renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#476DC5",
+        "borderBottomColor": "#f2f2f2",
+        "borderBottomWidth": 1,
+        "height": 70,
+        "padding": 15,
+      },
+      undefined,
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-end",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;

@@ -1,0 +1,484 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tile with basic theme applied OldTile renders correctly 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  collapsable={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "height": 600,
+      "opacity": 1,
+      "width": 750,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "flex": 2,
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Image
+      source={undefined}
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "height": undefined,
+            "width": undefined,
+          },
+          Object {
+            "resizeMode": "cover",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "alignSelf": "center",
+            "justifyContent": "center",
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingBottom": 5,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+          "paddingTop": 15,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      numberOfLines={undefined}
+      style={
+        Array [
+          Object {},
+          undefined,
+          undefined,
+          undefined,
+          Object {
+            "fontSize": 27.5,
+          },
+          undefined,
+          undefined,
+          undefined,
+          Object {},
+          undefined,
+          Array [
+            Object {
+              "backgroundColor": "rgba(0,0,0,0)",
+              "marginBottom": 5,
+            },
+            undefined,
+          ],
+        ]
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Tile with basic theme applied Tile renders correctly 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  collapsable={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "red",
+      "height": 600,
+      "opacity": 1,
+      "width": 750,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "flex": 2,
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Image
+      source={undefined}
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "height": undefined,
+            "width": undefined,
+          },
+          Object {
+            "resizeMode": "cover",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "alignSelf": "center",
+            "justifyContent": "center",
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingBottom": 5,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+          "paddingTop": 15,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      numberOfLines={undefined}
+      style={
+        Array [
+          Object {},
+          undefined,
+          undefined,
+          undefined,
+          Object {
+            "fontSize": 27.5,
+          },
+          undefined,
+          undefined,
+          undefined,
+          Object {},
+          undefined,
+          Array [
+            Object {
+              "backgroundColor": "rgba(0,0,0,0)",
+              "marginBottom": 5,
+            },
+            undefined,
+          ],
+        ]
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Tile with no theme applied OldTile and Tile returns the same thing if no theme is applied 1`] = `"[2mCompared values have no visual difference.[22m"`;
+
+exports[`Tile with no theme applied OldTile renders correctly 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  collapsable={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "height": 600,
+      "opacity": 1,
+      "width": 750,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "flex": 2,
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Image
+      source={undefined}
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "height": undefined,
+            "width": undefined,
+          },
+          Object {
+            "resizeMode": "cover",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "alignSelf": "center",
+            "justifyContent": "center",
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingBottom": 5,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+          "paddingTop": 15,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      numberOfLines={undefined}
+      style={
+        Array [
+          Object {},
+          undefined,
+          undefined,
+          undefined,
+          Object {
+            "fontSize": 27.5,
+          },
+          undefined,
+          undefined,
+          undefined,
+          Object {},
+          undefined,
+          Array [
+            Object {
+              "backgroundColor": "rgba(0,0,0,0)",
+              "marginBottom": 5,
+            },
+            undefined,
+          ],
+        ]
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Tile with no theme applied Tile renders correctly 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  collapsable={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "height": 600,
+      "opacity": 1,
+      "width": 750,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "flex": 2,
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Image
+      source={undefined}
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "height": undefined,
+            "width": undefined,
+          },
+          Object {
+            "resizeMode": "cover",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "alignSelf": "center",
+            "justifyContent": "center",
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingBottom": 5,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+          "paddingTop": 15,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      numberOfLines={undefined}
+      style={
+        Array [
+          Object {},
+          undefined,
+          undefined,
+          undefined,
+          Object {
+            "fontSize": 27.5,
+          },
+          undefined,
+          undefined,
+          undefined,
+          Object {},
+          undefined,
+          Array [
+            Object {
+              "backgroundColor": "rgba(0,0,0,0)",
+              "marginBottom": 5,
+            },
+            undefined,
+          ],
+        ]
+      }
+    />
+  </View>
+</View>
+`;

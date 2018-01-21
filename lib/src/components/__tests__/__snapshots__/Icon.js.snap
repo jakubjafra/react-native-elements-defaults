@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon with basic theme applied Icon renders correctly 1`] = `
+<View
+  onPress={undefined}
+  style={
+    Array [
+      false,
+      false,
+      false,
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "red",
+      },
+    ]
+  }
+  underlayColor="white"
+>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "black",
+          "fontSize": 24,
+        },
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ],
+        Object {
+          "fontFamily": "Material Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`Icon with basic theme applied OldIcon renders correctly 1`] = `
+<View
+  onPress={undefined}
+  style={
+    Array [
+      false,
+      false,
+      false,
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+  underlayColor="white"
+>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "black",
+          "fontSize": 24,
+        },
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ],
+        Object {
+          "fontFamily": "Material Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`Icon with no theme applied Icon renders correctly 1`] = `
+<View
+  onPress={undefined}
+  style={
+    Array [
+      false,
+      false,
+      false,
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+  underlayColor="white"
+>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "black",
+          "fontSize": 24,
+        },
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ],
+        Object {
+          "fontFamily": "Material Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`Icon with no theme applied OldIcon and Icon returns the same thing if no theme is applied 1`] = `"[2mCompared values have no visual difference.[22m"`;
+
+exports[`Icon with no theme applied OldIcon renders correctly 1`] = `
+<View
+  onPress={undefined}
+  style={
+    Array [
+      false,
+      false,
+      false,
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+  underlayColor="white"
+>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "black",
+          "fontSize": 24,
+        },
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ],
+        Object {
+          "fontFamily": "Material Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }
+  >
+    
+  </Text>
+</View>
+`;
