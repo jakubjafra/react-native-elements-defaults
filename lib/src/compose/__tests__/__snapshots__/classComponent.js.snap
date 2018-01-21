@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`classComponent construct with proper scope overwrite defaults should pass - not overwrite - user defined props 1`] = `
+<View
+  primary={
+    Array [
+      Object {
+        "color": "green",
+      },
+      Object {
+        "color": "red",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`classComponent construct with proper scope overwrite defaults should set props to specified default ones 1`] = `
+<View
+  primary={
+    Object {
+      "color": "green",
+    }
+  }
+/>
+`;
+
+exports[`classComponent construct with proper scope overwrite full should replace the component entirely 1`] = `<View />`;
