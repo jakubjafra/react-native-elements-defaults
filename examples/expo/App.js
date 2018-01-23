@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Image, ListView, ScrollView, StyleSheet, View,} from 'react-native';
 
-import {Overwrite} from 'react-native-elements-defaults/helpers';
+import { getStyledComponents, Overwrite } from 'react-native-elements-defaults';
 
 const input = [
     new Overwrite('$colors', Overwrite.TYPE.FILE, Overwrite.SCOPE.DEFAULTS, {
@@ -28,11 +28,11 @@ const input = [
         ios: {},
         android: {},
     }),
-    new Overwrite('Text', Overwrite.TYPE.FUNCTIONAL_COMPONENT_ATTRIBUTES, Overwrite.SCOPE.DEFAULTS, {
+    new Overwrite('Text', Overwrite.TYPE.FUNCTIONAL_COMPONENT_ATTRIBUTES, Overwrite.SCOPE.DEFAULTS, StyleSheet.create({
         style: {
             fontFamily: 'Times New Roman',
         },
-    }),
+    })),
     new Overwrite('Icon', Overwrite.TYPE.FUNCTIONAL_COMPONENT_ATTRIBUTES, Overwrite.SCOPE.DEFAULTS, {
         style: {},
         iconStyle: {},
@@ -172,9 +172,8 @@ const input = [
     }),
 ];
 
-import rned from 'react-native-elements-defaults';
 const {Badge, Header, Avatar, Button, ButtonGroup, Card, List, ListItem, Text, Tile, FormLabel, FormInput, FormValidationMessage
-} = rned(input);
+} = getStyledComponents(input);
 
 const users = [
     {
