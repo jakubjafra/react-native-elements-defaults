@@ -32,6 +32,8 @@ const { Button, List, ListItem, /* ... */ } = getStyledComponents([
 
 This will place `fontFamily: 'Times New Roman'` **on top of existing styles** for `Text` component of `react-native-elements` lib, and replace the original `Text` in every other component (for example `ListItem`) with the overwritten one.
 
+It's currently using `react-native-elements` at `0.19.0`.
+
 # How it works?
 
 It basicly uses require cache to override `default export`ed components with ones that accepts external styling from `react-native-elements`.
@@ -89,3 +91,16 @@ See [LOW_LEVEL_API.md]
 * You can only overwrite once: place your components in one file, and then refer to that file in your app.
 * This will affect your `require` cache: do **NOT** import `react-native-elements` in your app.
 * Order **DO** matter: for example you should overwrite `Text` component before other components that use it internally.
+
+#### Examples
+
+* `./examples/expo` basic usage of the lib with [Expo](https://expo.io)
+
+#### Running tests
+
+```
+git clone ...
+cd lib
+yarn && yarn run install:peers
+yarn test
+```
