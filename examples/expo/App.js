@@ -147,7 +147,7 @@ class App extends Component {
                     <Badge><Text>TEST</Text></Badge>
                     <Text style={{
                         fontFamily: 'Arial',
-                    }}>Test TEEXT</Text>
+                    }}>This text will be different.</Text>
                     <FormLabel>Name</FormLabel>
                     <FormInput/>
                     <FormValidationMessage>Error message</FormValidationMessage>
