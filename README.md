@@ -18,15 +18,13 @@ You can style `react-native-elements` components for your app - but you can't st
 ```javascript
 import { getStyledComponents, TextOverwrite } from 'react-native-elements-defaults';
 
-const overwrites = [
-   new TextOverwrite(StyleSheet.create({
-       style: {
-           fontFamily: 'Times New Roman',
-       },
-   }))
-];
-
-const { ListItem } = getStyledComponents(overwrites);
+const { ListItem } = getStyledComponents([
+    new TextOverwrite(StyleSheet.create({
+        style: {
+            fontFamily: 'Times New Roman',
+        },
+    }))
+]);
 
 ```
 
