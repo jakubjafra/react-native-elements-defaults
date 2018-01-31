@@ -1,7 +1,7 @@
 react-native-elements-defaults
 ==============================
 
-Small theming library that provides easy to set defaults for `react-native-elements` lib - without performance penalty for doing so.
+Small **experimental** theming library that provides easy to set defaults for `react-native-elements` lib - without performance penalty for doing so.
 
 # Problems
 
@@ -15,10 +15,12 @@ You can style `react-native-elements` components for your app - but you can't st
 
 # Usage
 
+Make `Times New Roman` the default font of your app:
+
 ```javascript
 import { getStyledComponents, TextOverwrite } from 'react-native-elements-defaults';
 
-const { ListItem } = getStyledComponents([
+const { Button, List, ListItem, /* ... */ } = getStyledComponents([
     new TextOverwrite(StyleSheet.create({
         style: {
             fontFamily: 'Times New Roman',
@@ -27,6 +29,8 @@ const { ListItem } = getStyledComponents([
 ]);
 
 ```
+
+This will place `fontFamily: 'Times New Roman'` **on top of existing styles** for `Text` component of `react-native-elements` lib, and replace the original `Text` in every other component (for example `ListItem`) with the overwritten one.
 
 # How it works?
 
@@ -79,3 +83,9 @@ See _Usage_.
 #### Internal low level API
 
 See [LOW_LEVEL_API.md]
+
+#### Tips
+
+* You can only overwrite once: place your components in one file, and then refer to that file in your app.
+* This will affect your `require` cache: do **NOT** import `react-native-elements` in your app.
+* Order **DO** matter: for example you should overwrite `Text` component before other components that use it internally.
