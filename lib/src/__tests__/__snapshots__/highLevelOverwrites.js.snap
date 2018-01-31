@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`highLevelOverwrites should contain all components 1`] = `
+Array [
+  "AvatarOverwrite",
+  "BadgeOverwrite",
+  "ButtonOverwrite",
+  "ButtonGroupOverwrite",
+  "CardOverwrite",
+  "CheckBoxOverwrite",
+  "_ColorsOverwrite",
+  "DividerOverwrite",
+  "FeaturedTileOverwrite",
+  "_FontsOverwrite",
+  "FormInputOverwrite",
+  "FormLabelOverwrite",
+  "FormValidationMessageOverwrite",
+  "HeaderOverwrite",
+  "IconOverwrite",
+  "ListOverwrite",
+  "ListItemOverwrite",
+  "PricingCardOverwrite",
+  "RatingOverwrite",
+  "SearchOverwrite",
+  "SliderOverwrite",
+  "SocialIconOverwrite",
+  "TextOverwrite",
+  "TileOverwrite",
+]
+`;
