@@ -7,7 +7,7 @@ Small theming library that provides easy to set defaults for `react-native-eleme
 
 ### No batch styling
 
-Ever wanted to change the `fontFamily` for every Text element in your app? I haven't found a way to do it specifying it all over the place.
+Ever wanted to change the `fontFamily` for every Text element in your app? I haven't found a way to do it - without passing it to every used component, all over the app.
 
 ### Your styling can't reach library base components
 
@@ -15,7 +15,20 @@ You can style `react-native-elements` components for your app - but you can't st
 
 # Usage
 
-...
+```javascript
+import { getStyledComponents, TextOverwrite } from 'react-native-elements-defaults';
+
+const overwrites = [
+   new TextOverwrite(StyleSheet.create({
+       style: {
+           fontFamily: 'Times New Roman',
+       },
+   }))
+];
+
+const { ListItem } = getStyledComponents(overwrites);
+
+```
 
 # How it works?
 
@@ -23,11 +36,10 @@ It basicly uses require cache to override `default export`ed components with one
 
 **Note:** This is working library, meant to solve problems **now**. There are some POC already proposed about styling in `react-native-elements` repository, for example:
 
-* https://github.com/react-native-training/react-native-elements/pull/760 (really good PR - it uses the same approach as this, check it out!)
+* https://github.com/react-native-training/react-native-elements/pull/760
 * https://github.com/react-native-training/react-native-elements/issues/216
 
-However, lack of velocity on those changes and statements like *"theming should be limited to just colors and fonts"* leads to impression that theming is not something around the corner.
-When - or if - working version of theming will be introduced to `react-native-elements` is debatable - so for now you can style it on your own. Later - hopefully - this lib will not be needed anymore.
+You should definitely monitor the status of those PRs.
 
 #### Base idea
 
